@@ -36,13 +36,17 @@ const Footer = () => {
 			</ul>
 
 			<div className="footer__socials">
-				<a href="https://facebook.com">
+				<a
+					href="https://www.facebook.com/dip4012"
+					target="_blank"
+					rel="noreferrer"
+				>
 					<FaFacebookF />
 				</a>
-				<a href="https://instagram.com">
+				<a href="https://www.instagram.com/_.dips._.of._.luck._/">
 					<FiInstagram />
 				</a>
-				<a href="https://twitter.com">
+				<a href="https://twitter.com/Saha_sHAdy_Dip">
 					<IoLogoTwitter />
 				</a>
 			</div>
