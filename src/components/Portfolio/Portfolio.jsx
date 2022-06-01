@@ -3,9 +3,6 @@ import "./Portfolio.css";
 import IMG1 from "../../assets/portfolio1.jpg";
 import IMG2 from "../../assets/portfolio2.jpg";
 import IMG3 from "../../assets/portfolio3.jpg";
-import IMG4 from "../../assets/portfolio4.jpg";
-import IMG5 from "../../assets/portfolio5.png";
-import IMG6 from "../../assets/portfolio6.jpg";
 
 const data = [
 	{
@@ -45,10 +42,20 @@ const Portfolio = () => {
 						</div>
 						<h3>{item.title}</h3>
 						<div className="portfolio__itemCta">
-							<a href={item.github} target="_blank" className="btn">
+							<a
+								href={item.github}
+								target="_blank"
+								className="btn"
+								rel="noreferrer"
+							>
 								GitHub
 							</a>
-							<a href={item.demo} target="_blank" className="btn btn-primary">
+							<a
+								href={item.demo}
+								target="_blank"
+								className="btn btn-primary"
+								rel="noreferrer"
+							>
 								Live Demo
 							</a>
 						</div>

@@ -36,7 +36,7 @@ const Testimonials = () => {
 						<h3>{title}</h3>
 						<small>{provider}</small>
 
-						<a href={link} className="btn" target="_blank">
+						<a href={link} className="btn" target="_blank" rel="noreferrer">
 							View
 						</a>
 					</article>
