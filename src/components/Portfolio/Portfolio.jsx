@@ -17,7 +17,7 @@ const data = [
 		image: IMG2,
 		title: "Portfolio Website",
 		github: "https://github.com/dip4012/portfolio-website.git",
-		demo: "https://clone-edac6.web.app",
+		demo: "https://dibyendu.netlify.app/",
 	},
 	{
 		id: 1,
