@@ -12,22 +12,29 @@ const data = [
 		id: 1,
 		image: IMG1,
 		title: "Amazon E-Commerce Clone",
-		github: "https://github.com",
+		github: "https://github.com/dip4012/amazon-ecommerce-clone.git",
 		demo: "https://clone-edac6.web.app",
 	},
 	{
 		id: 1,
 		image: IMG2,
 		title: "Portfolio Website",
-		github: "https://github.com",
+		github: "https://github.com/dip4012/portfolio-website.git",
 		demo: "https://clone-edac6.web.app",
+	},
+	{
+		id: 1,
+		image: IMG3,
+		title: "URL Shortener",
+		github: "https://github.com/dip4012/URL-Shortener.git",
+		demo: "https://url-shortener-0412.herokuapp.com/",
 	},
 ];
 
 const Portfolio = () => {
 	return (
 		<section id="portfolio">
-			<h5>My React Works</h5>
+			<h5>My Web Development Works</h5>
 			<h2>Portfolio</h2>
 
 			<div className="container portfolio__container">
