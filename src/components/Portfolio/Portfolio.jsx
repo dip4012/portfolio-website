@@ -34,7 +34,7 @@ const data = [
 		image: IMG4,
 		title: "Quizzical",
 		github: "https://github.com/dip4012/Quizzical.git",
-		demo: "https://url-shortener-production-00.up.railway.app",
+		demo: "https://quizzical-production.up.railway.app",
 	},
 	{
 		id: 5,
