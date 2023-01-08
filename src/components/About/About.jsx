@@ -1,9 +1,9 @@
-import React from "react";
-import "./About.css";
-import ME from "../../assets/me-about.jpg";
-import { FaAward } from "react-icons/fa";
-import { FiUser } from "react-icons/fi";
-import { VscFolderLibrary } from "react-icons/vsc";
+import React from "react"
+import "./About.css"
+import ME from "../../assets/me-about.jpg"
+import { FaAward } from "react-icons/fa"
+import { FiUser } from "react-icons/fi"
+import { VscFolderLibrary } from "react-icons/vsc"
 
 const About = () => {
 	return (
@@ -23,32 +23,33 @@ const About = () => {
 						<article className="about__card">
 							<FaAward className="about__icon" />
 							<h5>Experience</h5>
-							<small>6 months</small>
+							<small>1 year</small>
 						</article>
 
 						<article className="about__card">
 							<FiUser className="about__icon" />
-							<h5>Intrenships</h5>
-							<small>2 Completed</small>
+							<h5>Internships</h5>
+							<small>4 Completed</small>
 						</article>
 
 						<article className="about__card">
 							<VscFolderLibrary className="about__icon" />
 							<h5>Projects</h5>
-							<small>3 Completed</small>
+							<small>6 Completed</small>
 						</article>
 					</div>
 
 					<p>
-						I am a proficient web developer having experience in HTML, CSS,
-						JavaScript, TypeScript, MERN and MEAN stack. I am also a budding
-						software developer. I also have an interest in DevOps. I have worked
-						with tools like git, npm, and docker. I have worked on Windows and
-						Linux. I also have a very basic knowledge of bash scripting. I am a
-						keen learner passionate about modern technology and eager to build a
-						career in software development. I have solved more than 500 problems
-						on various coding platforms like CodeChef, Leetcode, etc. I have
-						always believed in the principle of "Learn as you go!!"
+						I'm trying to become a website developer. I have solid practical
+						experience working on various project kinds. I've worked with HTML, CSS,
+						JavaScript, Angular, React, Node.js, Express.js, PHP, Slim, MongoDB, and
+						MySQL. I also have some practical knowledge with Django, Go, and Nest.js.
+						Additionally, I've used AWS EC2 and AWS Amplify. Using C++ as my primary
+						language, I have also developed a decent understanding of DSA. I also have
+						a fundamental understanding of Python and Java. All told, I have figured
+						out more than 500 problems on different coding platforms and still
+						improving. I am constantly looking for chances to pick up new talents and
+						learn new technology.
 					</p>
 
 					<a href="#contact" className="btn btn-primary">
@@ -57,7 +58,7 @@ const About = () => {
 				</div>
 			</div>
 		</section>
-	);
-};
+	)
+}
 
-export default About;
+export default About

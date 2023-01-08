@@ -1,6 +1,6 @@
-import React from "react";
-import "./Experience.css";
-import { BsPatchCheckFill } from "react-icons/bs";
+import React from "react"
+import "./Experience.css"
+import { BsPatchCheckFill } from "react-icons/bs"
 
 const Experience = () => {
 	return (
@@ -23,21 +23,14 @@ const Experience = () => {
 							<BsPatchCheckFill className="experience__detailsIcons" />
 							<div>
 								<h4>CSS</h4>
-								<small className="text-light">Intermediate</small>
-							</div>
-						</article>
-						<article className="experience__details">
-							<BsPatchCheckFill className="experience__detailsIcons" />
-							<div>
-								<h4>Bootstrap</h4>
 								<small className="text-light">Experienced</small>
 							</div>
 						</article>
 						<article className="experience__details">
 							<BsPatchCheckFill className="experience__detailsIcons" />
 							<div>
-								<h4>Tailwind</h4>
-								<small className="text-light">Familiar</small>
+								<h4>Javascript</h4>
+								<small className="text-light">Experienced</small>
 							</div>
 						</article>
 						<article className="experience__details">
@@ -63,29 +56,29 @@ const Experience = () => {
 						<article className="experience__details">
 							<BsPatchCheckFill className="experience__detailsIcons" />
 							<div>
-								<h4>JavaScript</h4>
+								<h4>Node.js</h4>
 								<small className="text-light">Experienced</small>
 							</div>
 						</article>
 						<article className="experience__details">
 							<BsPatchCheckFill className="experience__detailsIcons" />
 							<div>
-								<h4>TypeScript</h4>
+								<h4>Express.js</h4>
+								<small className="text-light">Experienced</small>
+							</div>
+						</article>
+						<article className="experience__details">
+							<BsPatchCheckFill className="experience__detailsIcons" />
+							<div>
+								<h4>PHP</h4>
 								<small className="text-light">Intermediate</small>
 							</div>
 						</article>
 						<article className="experience__details">
 							<BsPatchCheckFill className="experience__detailsIcons" />
 							<div>
-								<h4>Node</h4>
-								<small className="text-light">Experienced</small>
-							</div>
-						</article>
-						<article className="experience__details">
-							<BsPatchCheckFill className="experience__detailsIcons" />
-							<div>
-								<h4>Express</h4>
-								<small className="text-light">Experienced</small>
+								<h4>PHP Slim</h4>
+								<small className="text-light">Intermediate</small>
 							</div>
 						</article>
 						<article className="experience__details">
@@ -98,15 +91,15 @@ const Experience = () => {
 						<article className="experience__details">
 							<BsPatchCheckFill className="experience__detailsIcons" />
 							<div>
-								<h4>Nest.js</h4>
-								<small className="text-light">Familiar</small>
+								<h4>MySQL</h4>
+								<small className="text-light">Intermediate</small>
 							</div>
 						</article>
 					</div>
 				</div>
 			</div>
 		</section>
-	);
-};
+	)
+}
 
-export default Experience;
+export default Experience

@@ -1,8 +1,11 @@
-import React from "react";
-import "./Portfolio.css";
-import IMG1 from "../../assets/portfolio1.jpg";
-import IMG2 from "../../assets/portfolio2.jpg";
-import IMG3 from "../../assets/portfolio3.jpg";
+import React from "react"
+import "./Portfolio.css"
+import IMG1 from "../../assets/portfolio1.jpg"
+import IMG2 from "../../assets/portfolio2.jpg"
+import IMG3 from "../../assets/portfolio3.jpg"
+import IMG4 from "../../assets/portfolio4.jpg"
+import IMG5 from "../../assets/portfolio5.png"
+import IMG6 from "../../assets/portfolio6.jpg"
 
 const data = [
 	{
@@ -13,26 +16,47 @@ const data = [
 		demo: "https://clone-edac6.web.app",
 	},
 	{
-		id: 1,
+		id: 2,
 		image: IMG2,
 		title: "Portfolio Website",
 		github: "https://github.com/dip4012/portfolio-website.git",
 		demo: "https://dibyendu.netlify.app/",
 	},
 	{
-		id: 1,
+		id: 3,
 		image: IMG3,
 		title: "URL Shortener",
 		github: "https://github.com/dip4012/URL-Shortener.git",
-		demo: "https://url-shortener-0412.herokuapp.com/",
+		demo: "https://url-shortener-production-00.up.railway.app",
 	},
-];
+	{
+		id: 4,
+		image: IMG4,
+		title: "Quizzical",
+		github: "https://github.com/dip4012/Quizzical.git",
+		demo: "https://url-shortener-production-00.up.railway.app",
+	},
+	{
+		id: 5,
+		image: IMG5,
+		title: "Tenzies Game",
+		github: "https://github.com/dip4012/Tenzies-game.git",
+		demo: "https://tenzies-game-production.up.railway.app",
+	},
+	{
+		id: 6,
+		image: IMG6,
+		title: "Comment System",
+		github: "https://github.com/dip4012/comment-system-frontend.git",
+		demo: "https://main.d2jjdcljtvsa9x.amplifyapp.com/",
+	},
+]
 
 const Portfolio = () => {
 	return (
 		<section id="portfolio">
 			<h5>My Web Development Works</h5>
-			<h2>Portfolio</h2>
+			<h2>Projects</h2>
 
 			<div className="container portfolio__container">
 				{data.map((item) => (
@@ -42,12 +66,7 @@ const Portfolio = () => {
 						</div>
 						<h3>{item.title}</h3>
 						<div className="portfolio__itemCta">
-							<a
-								href={item.github}
-								target="_blank"
-								className="btn"
-								rel="noreferrer"
-							>
+							<a href={item.github} target="_blank" className="btn" rel="noreferrer">
 								GitHub
 							</a>
 							<a
@@ -63,7 +82,7 @@ const Portfolio = () => {
 				))}
 			</div>
 		</section>
-	);
-};
+	)
+}
 
-export default Portfolio;
+export default Portfolio

@@ -1,4 +1,5 @@
 .about__container {
+	width: 100%;
 	display: grid;
 	grid-template-columns: 35% 50%;
 	gap: 15%;
@@ -33,16 +34,17 @@
 }
 
 .about__cards {
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
+	display: flex;
 	gap: 1.5rem;
 }
 
 .about__card {
+	flex: 1 1 0px;
+	width: 0;
 	background: var(--color-bg-variant);
 	border: 1px solid transparent;
 	border-radius: 1rem;
-	padding: 2rem;
+	padding-block: 2rem;
 	text-align: center;
 	transition: var(--transition);
 }
